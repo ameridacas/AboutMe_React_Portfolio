@@ -1,17 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import './index.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import App from "./App.jsx";
-import Home from "./pages/Home";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import App from './App.jsx';
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App />,
     children: [
       {
@@ -19,15 +20,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/portfolio",
+        path: '/portfolio',
         element: <Portfolio />,
       },
       {
-        path: "/resume",
+        path: '/resume',
         element: <Resume />,
       },
       {
-        path: "/contact",
+        path: '/contact',
         element: <Contact />,
       },
     ],
