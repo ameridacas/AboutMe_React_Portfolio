@@ -11,9 +11,9 @@ to use react and show the differences from where I was as a starting developer c
 
 #Mock_UP
 
-Please view the gif below that shows my Portfolio working.
+Please view the link below that shows my Portfolio working.
 
-![alt AboutMe_React_Portfolio](./assets/images/AboutMe_React_Portfolio.jpg)
+https://drive.google.com/file/d/1DJnvFv4wq6d8fztR8rE_s8ac-7VbCWyr/view
 
 #Usage
 
