@@ -1,4 +1,4 @@
-import './app.css'
+// import './app.css'
 import Navbar from '../../components/navbar'
 
 function Home() {
@@ -6,7 +6,6 @@ function Home() {
   return (
     <>
     <Navbar />
-    return (
     <main>
       <section className="HomePage">
         <h2>Welcome to My Web Portfolio!</h2>
@@ -24,8 +23,6 @@ function Home() {
         {/* My sections for My Work and Contact Me here */}
       </section>
     </main>
-  );
-};
     </>
   );
 }

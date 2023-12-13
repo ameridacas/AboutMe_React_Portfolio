@@ -13,7 +13,7 @@ to use react and show the differences from where I was as a starting developer c
 
 Please view the gif below that shows my Portfolio working.
 
-![alt AboutMe_React_Portfolio](./assets/images/AboutMe_React_Portfolio.jpeg)
+![alt AboutMe_React_Portfolio](./assets/images/AboutMe_React_Portfolio.jpg)
 
 #Usage
 
