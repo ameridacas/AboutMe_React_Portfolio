@@ -1,5 +1,7 @@
-// import './app.css'
-import Navbar from '../../components/navbar'
+//import './app.css'
+import './style.css';
+import React from 'react';
+import Navbar from '../../components/Navbar'
 
 function Home() {
 

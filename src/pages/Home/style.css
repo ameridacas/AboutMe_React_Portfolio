@@ -1,0 +1,193 @@
+:root {
+    /*I created variables for the colors of my page*/
+    --header: white;
+    --titles: black;
+    --background: maroon;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    background-color: var(--header);
+  }
+ /* Used the display element for aligning the header and nav */ 
+  header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+    background-color: var(--background);
+    
+  }
+  
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  /* Added padding move h1 farther from the nav 50px to the left*/
+  h1 {
+    font-size: 200%;
+    color: var(--header);
+    padding: 0 50px 0 0;
+  }
+  
+  nav {
+    color: var(--header);
+    font-size: 20px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    align-items: flex-start;
+  }
+  
+  nav a {
+    background-color: var(--background);
+    color: var(--header);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /*used hover so when hovering over the ul it changes colors */
+  nav a:hover {
+    color: var(--titles);
+  }
+  /* Made a black Welcome Banner*/
+  main {
+    display: flex;
+    justify-content: center;
+    background-color:black ;
+    font-size: 30px;
+    color: white;
+    padding: 40px;
+    /* Bg-image adds the img to the banner*/
+    background-image: url(images/ufo.jpg);
+  }
+  /*Made a box border around my aboutme bio and changed the font*/
+  p {
+    border: border-box;
+    font-size: 30px;
+    font-family: fantasy;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: thick;
+    background-color: lightblue;
+  }
+
+  h3 {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 0 black;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-family:Georgia;
+    display: flex;
+    justify-content: left;
+    background-color: var(--background);
+    color:var(--header);
+    padding: 10px 0 15px 30px;
+  }
+  
+  h6 {
+    font-size: 100%;
+  }
+  
+  section {
+    background-color: lightblue;
+  }
+  footer {
+    display: inline-block;
+    background-color: var(--background);
+    padding-top: 5px var(--titles);
+  }
+
+  
+  
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  button,
+  pre,
+  code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+
+  
+  /*Styled the img element using box-shadow,padding and background-image to make each category box*/
+ img {
+    position: relative;
+    height: 250px;
+    width: 600px;
+    background-image: linear-gradient
+        rgba(245, 35, 35, 0.942) 0%,
+        rgba(245, 35, 35, 0.942) 100%;
+    box-shadow: 0 4px 8px 0 rgba(245, 35, 35, 0.942), 0 6px 20px 0 black;
+    text-align: center;
+    border: 4px solid red;
+    border-radius: 40px;
+    /* Made the images rounded with a red line with border and border-radius*/
+    }
+  
+    /* Trying figure out how to hover the .img_hover text over imgs*/
+  .img_hover:hover {
+    opacity: 1;
+  }
+
+  .img_hover {
+    font-size: 20px;
+  } 
+
+  ol,
+  ul {
+    list-style: none;
+    
+  }
+  section li {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  footer {
+    display: flex;
+    justify-content: baseline;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  h5:hover {
+    color: var(--titles);
+  }
+/* Seperated my info links with justify-content and padding*/
+  footer ul {
+  display: flex;
+  justify-content: space-evenly;    
+  }
+
+  footer ul li {
+    padding: 0 15px 0;
+  }
+
+  /*Media screen was used for different screen sizes*/
+  @media screen and (min-width: 768px) {
+
+  }
+
+@media screen and (max-width: 992px) {
+    header {
+        width: 100%;
+      }
+}

@@ -1,14 +1,12 @@
 import './App.css';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Projects from './pages/Portfolio';
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="react-app">
-      <Home />
-      <Contact />
-      <Projects />
+      <Navbar />
+      <Outlet />
     </div>
   );
 }

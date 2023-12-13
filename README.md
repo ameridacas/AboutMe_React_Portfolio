@@ -26,3 +26,5 @@ be animations, favicons, more external links, a map for my future employment loc
 Github-Deploy="https://ameridacas.github.io/AboutMe_React_Portfolio/"
 
 Github-Repo="https://github.com/ameridacas/AboutMe_React_Portfolio/"
+
+Netlify-Deploy="stellular-druid-4d0536.netlify.app"
