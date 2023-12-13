@@ -4,12 +4,22 @@
 
 React: React Portfolio
 
+The purpose of this application was to create a dynamic porfolio that a user can react with to view information about me and 
+what work I have accomplished. My porfolio allows potential employers in the future to be able to view my react porfolio see 
+who I am as a future web developer and how to contact me. This application shows the complex ways and some of the many ways 
+to use react and show the differences from where I was as a starting developer compared to now.
+
 #Mock_UP
+
+Please view the gif below that shows my Portfolio working.
 
 ![alt AboutMe_React_Portfolio](./assets/images/AboutMe_React_Portfolio.jpeg)
 
 #Usage
 
+Other developers can expand uponh this react portfolio to create other applications such eccommerce websites,
+autobiographies, an interactive book for children and adults, etc. Future development for this application would
+be animations, favicons, more external links, a map for my future employment location, etc.
 
 #Credits
 
