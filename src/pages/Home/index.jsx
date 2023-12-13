@@ -1,13 +1,12 @@
 //import './app.css'
 import './style.css';
 import React from 'react';
-import Navbar from '../../components/Navbar'
+//import Navbar from '../../components/Navbar'
 
 function Home() {
 
     return (
         <>
-            <Navbar />
             <main>
                 <section className="HomePage">
                     <h2>Welcome to My Web Portfolio!</h2>
@@ -32,7 +31,7 @@ function Home() {
                             <ul className="WorkCategories">
                                 {/* These are my category boxes for my future projects */}
                                 <li>Surf Report</li>
-                                <img src="./assets/images/surf-report.png" alt="surf report" />
+                                <img src="./assets/images/surf-report.jpg" alt="surf report" />
                                 <div className="imgHover">MERN Stack</div>
 
                                 <li>Led Wall</li>

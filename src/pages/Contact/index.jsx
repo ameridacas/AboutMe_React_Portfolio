@@ -1,11 +1,10 @@
+import './style.css';
 import React from 'react';
-import Navbar from '../../components/Navbar';
 import ContactForm from '../../components/ContactForm';
 
 function Contact() {
   return (
     <>
-      <Navbar />
       <main>
         <section className="ContactPage">
           <h2>Contact Me</h2>
