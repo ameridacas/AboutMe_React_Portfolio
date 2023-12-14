@@ -22,9 +22,14 @@
     align-items: center;
     padding: 40px;
     background-color: var(--background);
-    
   }
   
+  .headername {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--header);
+  }
+
   body {
     min-height: 100%;
     line-height: 1;
@@ -37,6 +42,12 @@
     padding: 0 50px 0 0;
   }
   
+  .welcome {
+    font-size: 100%;
+    color: var(--header);
+    background-image: url(/src/assets/images/ufo.jpg);
+  }
+
   nav {
     color: var(--header);
     font-size: 20px;
@@ -62,13 +73,14 @@
   /* Made a black Welcome Banner*/
   main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color:black ;
     font-size: 30px;
     color: white;
     padding: 40px;
     /* Bg-image adds the img to the banner*/
-    background-image: url(images/ufo.jpg);
+    background-image: url(/src/assets/images/ufo.jpg);
   }
   /*Made a box border around my aboutme bio and changed the font*/
   p {
@@ -104,8 +116,10 @@
   }
   
   section {
-    background-color: lightblue;
+    background-color:darkgray;
+    flex-direction: column;
   }
+  
   footer {
     display: inline-block;
     background-color: var(--background);
@@ -155,9 +169,14 @@
 
   ol,
   ul {
-    list-style: none;
-    
+    list-style: none; 
   }
+
+  section {
+    display: flex;
+    padding: 5px 0 5px 0;
+  }
+
   section li {
     font-size: 30px;
     font-weight: bolder;
@@ -165,9 +184,11 @@
 
   footer {
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     padding: 20px;
     font-size: 20px;
+    color: var(--header);
+
   }
 
   h5:hover {
@@ -181,6 +202,11 @@
 
   footer ul li {
     padding: 0 15px 0;
+  }
+
+  footer a {
+    color: white;
+    padding: 0 10px 0;
   }
 
   /*Media screen was used for different screen sizes*/
